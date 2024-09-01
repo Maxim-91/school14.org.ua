@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+<name>OzioGallery</name>
+<creationDate>27/04/2008</creationDate>
+<author>Alexred</author>
+<copyright>(C) 2008</copyright>
+<authorEmail>info@joomla.it</authorEmail>
+<authorUrl>http://www.joomla.it</authorUrl>
+<version>1.0.9</version>
+<license>GNU/GPL - http://www.gnu.org/copyleft/gpl.html</license>
+<description>Ozio Gallery for Joomla! 1.5</description>
+<installfile>install.oziogallery.php</installfile>
+<uninstallfile>uninstall.oziogallery.php</uninstallfile>
+<files>
+	<filename>index.html</filename>
+	<filename>oziogallery.html.php</filename>
+	<filename>oziogallery.php</filename>
+	<filename>gallery.php</filename>
+	<filename>accordion.php</filename>
+	<filename>gallery.xml</filename>
+	<filename>settings.php</filename>
+	<filename>swfobject.js</filename>
+	<filename>TiltViewer.swf</filename>
+	<filename>imagerotator.swf</filename>
+	<filename>imagerotator.xml</filename>
+	<filename>mosaico.swf</filename>
+	<filename>lustswf.js</filename>
+	<filename>lustmosaico.xml</filename>
+	<filename>slider.swf</filename>
+	<filename>preview.swf</filename>
+	<filename>preview2.swf</filename>
+	<filename>accordion.xml</filename>
+	<filename>dfgallery.swf</filename>
+	<filename>dfgallery.php</filename>
+	<filename>default.xml</filename>
+	<filename>defaultnotitle.xml</filename>
+	<filename>black.xml</filename>
+	<filename>blue.xml</filename>
+	<filename>flashgallery.php</filename>
+	<filename>flashgallerynotitle.php</filename>
+	<filename>flashgallery.swf</filename>
+	<filename>Carousel.swf</filename>
+	<filename>carousel.php</filename>
+	<filename>version/swfobject.js</filename>
+	<filename>carousel.xml</filename>
+	<filename>imagin/imagin.swf</filename>
+	<filename>imagin/styles.css</filename>
+	<filename>imagin/fonts/helvetica_r.swf</filename>
+	<filename>imagin/imagin/_preferences.xml</filename>
+	<filename>imagin/imagin/info.png</filename>
+	<filename>imagin/scripts_ralcr/embed/embedOBJ2.php</filename>
+	<filename>imagin/scripts_ralcr/embed/embedOBJ.php</filename>
+	<filename>imagin/scripts_ralcr/embed/expressInstall.swf</filename>
+	<filename>imagin/scripts_ralcr/filesystem/iptc.php</filename>
+	<filename>imagin/scripts_ralcr/filesystem/readAndCreateThumbs.php</filename>
+	<filename>imagin/scripts_ralcr/filesystem/readIPTC.php</filename>
+	<filename>imagin/scripts_ralcr/filesystem/resize.php</filename>
+	<filename>imagin/scripts_ralcr/filesystem/sort.php</filename>
+	<filename>imagin/scripts_ralcr/filesystem/writeToFile.php</filename>
+	<filename>imagin/scripts_ralcr/js/flash-resize.js</filename>
+	<filename>imagin/scripts_ralcr/js/swfaddress.js</filename>
+	<filename>imagin/scripts_ralcr/js/swfaddress-optimizer.js</filename>
+	<filename>imagin/scripts_ralcr/js/swfmacmousewheel2.js</filename>
+	<filename>imagin/scripts_ralcr/others/sendMail.php</filename>
+</files>
+<administration>
+	<menu img="components/com_oziogallery/images/oziogallery.png">Ozio Gallery</menu>
+	<menu link="option=com_oziogallery">Ozio Gallery</menu>
+	<files folder="admin">
+		<filename>index.html</filename>
+		<filename>admin.oziogallery.html.php</filename>
+		<filename>admin.oziogallery.php</filename>
+		<filename>toolbar.oziogallery.html.php</filename>
+		<filename>toolbar.oziogallery.php</filename>
+		<filename>301a.js</filename>
+		<filename>css/default.css</filename>
+		<filename>css/ozio.css</filename>
+		<filename>images/index.html</filename>	
+		<filename>images/oziogallery.png</filename>
+		<filename>images/help.png</filename>
+		<filename>images/home.png</filename>
+		<filename>images/logo.png</filename>
+		<filename>images/remove.png</filename>
+		<filename>images/settings.png</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.com_oziogallery.ini</language>
+		<language tag="it-IT">language/it-IT/it-IT.com_oziogallery.ini</language>
+	</languages>
+	<media folder="admin" destination="com_oziogallery/images">
+		<filename>images/oziogallery.png</filename>
+	</media>
+</administration>
+</install>
+
+
+
+

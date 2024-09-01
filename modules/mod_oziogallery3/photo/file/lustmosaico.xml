@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tiltviewergallery>
+<photos>
+  <photo>
+  <location>http://www.exemple.xx/images/oziogallery/001.jpg</location>
+  </photo>
+  <photo>
+  <location>http://www.exemple.xx/images/oziogallery/002.jpg</location>
+  </photo>
+  <photo>
+  <location>http://www.exemple.xx/images/oziogallery/003.jpg</location>
+  </photo>
+</photos>
+</tiltviewergallery>

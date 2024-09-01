@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5">
+<name>OzioGallery Module</name>
+<author>Alexred</author>
+<creationDate>March 2008</creationDate>
+<copyright>(C) 2008</copyright>
+<authorEmail>info@joomla.it</authorEmail>
+<authorUrl>http://www.joomla.it</authorUrl>
+<version>1.0.1</version>
+<license>GNU/GPL - http://www.gnu.org/copyleft/gpl.html</license>
+<description>CIAO FROM ITALY - THANKS FOR CHOOSING OZIO GALLERY</description>
+<params>
+<param name="skin" type="list" default="tiltviewer" label="SKIN" description="SKIN DESCRIPTION">
+			<option value="tiltviewer">Tilt 3D</option>
+			<option value="slideshow">Flickr Slideshow</option>
+			<option value="flickrPhotos">Flickr Photos</option>
+			<option value="imagerotator">Image Rotator</option>
+			<option value="lustMosaico">lustMosaico</option>
+			<option value="slideoo">Flickr Slideoo</option>
+			<option value="accordion">Accordion</option>
+			<option value="flashgallery">Flashgallery</option>
+			<option value="carousel">Carousel</option>
+			<option value="imagin">Imagin</option>
+</param>
+<param name="flickr" type="radio" default="0" label="USE IMAGES FROM FLICKR" description="LOAD IMAGES FROM FLICKR">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+</param>
+<param name="c" type="spacer" default="" label="" description="" />
+<param name="ozio_user_id" type="text" default="" label="FLICKR USER ID" description="FLICKR USER ID DESCRIPTION"></param>
+<param name="ozio_tags" type="text" default="" label="TAGS" description="TAGS DESCRIPTION"></param>
+<param name="tag_mode" type="radio" default="0" label="TAG MODE" description="TAG MODE DESCRIPTION">
+			<option value="0">all</option>
+			<option value="1">any</option>
+</param>
+<param name="ozio_text" type="text" default="" label="TEXT" description="TEXT DESCRIPTION"></param>
+<param name="ozio_group_id" type="text" default="" label="GROUP ID" description="GROUP ID DESCRIPTION"></param>
+<param name="ozio_set_id" type="text" default="" label="SET ID" description="SET ID DESCRIPTION"></param>
+<param name="sort" type="radio" default="0" label="RELEVANCE" description="RELEVANCE DESCRIPTION">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+</param>
+<param name="a" type="spacer" default="" label="" description="" />
+<param name="scrittatilt" type="spacer" default="======== SKIN TILT 3D SETTINGS ========" label="" description="" />
+<param name="ozio_columns" type="text" default="3" label="COLUMNS" description="NUMBER OF COLUMNS OF IMAGES TO DISPLAY"></param>
+<param name="ozio_rows" type="text" default="3" label="ROWS" description="NUMBER OF ROWS OF IMAGES TO DISPLAY"></param>
+<param name="ozio_width" type="text" default="600" label="FLASH WIDTH" description="FLASH WIDTH IN PIXEL"></param>
+<param name="ozio_height" type="text" default="600" label="FLASH HEIGHT" description="FLASH HEIGHT IN PIXEL"></param>
+<param name="tiltalign" type="radio" default="2" label="ALIGN" description="">
+			<option value="0">left</option>
+			<option value="2">center</option>
+			<option value="1">right</option>
+</param>
+<param name="ozio_bkgndoutercolor" type="text" default="FFFFFF" label="HEXADECIMAL COLOR VALUE OF THE STAGE BACKGROUND GRADIENT EDGE" description=""></param>
+<param name="ozio_framecolor" type="text" default="CFCFCF" label="HEXADECIMAL COLOR VALUE OF THE IMAGE FRAME" description=""></param>
+<param name="ozio_bkgndinnercolor" type="text" default="FFFFCC" label="HEXADECIMAL COLOR VALUE OF THE STAGE BACKGROUND GRADIENT CENTER" description=""></param>
+<param name="ozio_bkgndretro" type="text" default="FFFF66" label="BACKGROUND RETRO" description=""></param>
+<param name="xml_mode" type="radio" default="0" label="XML MODE">
+			<option value="0">Auto</option>
+			<option value="1">Manual</option>
+</param>
+<param name="maxJPGSize" type="text" default="640" label="MAX IMAGE SIZE" description="MAX IMAGE SIZE DESCRIPTION"></param>
+<param name="downloadtxt" type="text" default="Download" label="DOWNLOADTXT" description="DOWNLOADTXT DESCRIPTION"></param>
+<param name="ozio_download" type="radio" default="0" label="OZIO DOWNLOAD">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+</param>
+<param name="xmlURL" type="text" default="modules/mod_oziogallery/photo/file/gallery.xml" label="xml URL" description="" size="60"></param>
+<param name="phpURL" type="text" default="modules/mod_oziogallery/photo/gallery.php" label="php URL" description="" size="60"></param>
+<param name="b" type="spacer" default="" label="" description="" />
+<param name="scrittarotator" type="spacer" default="======== SKIN IMAGE ROTATOR SETTINGS ========" label="" description="" />
+<param name="ozio_widthr" type="text" default="600" label="FLASH WIDTH" description="FLASH WIDTH IN PIXEL"></param>
+<param name="ozio_heightr" type="text" default="400" label="FLASH HEIGHT" description="FLASH HEIGHT IN PIXEL"></param>
+<param name="rotatoralign" type="radio" default="2" label="ALIGN" description="">
+			<option value="0">left</option>
+			<option value="2">center</option>
+			<option value="1">right</option>
+</param>
+<param name="transition" type="list" default="random" label="TRANSITION" description="TRANSITION DESCRIPTION">
+			<option value="random">Random</option>
+			<option value="fade">Fade</option>
+			<option value="blocks">Blocks</option>
+			<option value="circles">Circles</option>
+			<option value="bubbles">Bubbles</option>
+			<option value="lines">Lines</option>
+			<option value="slowfade">Slow fade</option>
+</param>
+<param name="shownavigation" type="radio" default="1" label="NAVIGATION" description="NAVIGATION DESCRIPTION">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+</param>
+<param name="movimento" type="radio" default="0" label="IMMAGINI IN MOVIMENTO" description="IMMAGINI IN MOVIMENTO DESCRIPTION">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+</param>
+<param name="screencolor" type="text" default="000000" label="BACKGROUND GRADIENT EDGE" description="HEXADECIMAL COLOR VALUE OF THE STAGE BACKGROUND GRADIENT EDGE"></param>
+<param name="rotatetime" type="text" default="4" label="ROTATETIME" description="TIME DESCRIPTION"></param>
+<param name="logo" type="text" default="" label="LOGO" description="LOG DESCRIPTION"></param>
+<param name="audio" type="text" default="" label="AUDIO" description="AUDIO DESCRIPTION"></param>
+<param name="volume" type="text" default="25" label="VOLUME" description="VOLUME DESCRIPTION"></param>
+<param name="xml_moder" type="radio" default="0" label="XML MODE">
+			<option value="0">Auto</option>
+			<option value="1">Manual</option>
+</param>
+<param name="xmlURLr" type="text" default="modules/mod_oziogallery/photo/file/imagerotator.xml" label="xml URL" description="" size="60"></param>
+<param name="phpURLr" type="text" default="modules/mod_oziogallery/photo/gallery.php" label="php URL" description="" size="60"></param>
+<param name="c" type="spacer" default="" label="" description="" />
+<param name="scrittalust" type="spacer" default="======== SKIN LUSTMOSAICO SETTINGS ========" label="" description="" />
+<param name="ozio_widthl" type="text" default="585" label="FLASH WIDTH" description="FLASH WIDTH IN PIXEL"></param>
+<param name="ozio_heightl" type="text" default="300" label="FLASH HEIGHT" description="FLASH HEIGHT IN PIXEL"></param>
+<param name="lustalign" type="radio" default="2" label="ALIGN" description="">
+			<option value="0">left</option>
+			<option value="2">center</option>
+			<option value="1">right</option>
+</param>
+<param name="transitionlust" type="list" default="mosaico" label="TRANSITION" description="TRANSITION DESCRIPTION">
+			<option value="alpha">alpha</option>
+			<option value="random">random</option>
+			<option value="mosaico">mosaico</option>
+			<option value="treddi">treddi</option>
+			<option value="treddicube">treddicube</option>
+			<option value="treddimosaico">treddimosaico</option>
+			<option value="treddicubeint">treddicubeint</option>
+			<option value="treddicover">treddicover</option>
+</param>
+<param name="screencolorlust" type="text" default="ffffff" label="BACKGROUND GRADIENT EDGE" description="HEXADECIMAL COLOR VALUE OF THE STAGE BACKGROUND GRADIENT EDGE"></param>
+<param name="xml_model" type="radio" default="0" label="XML MODE">
+			<option value="0">Auto</option>
+			<option value="1">Manual</option>
+</param>
+<param name="xmlURLl" type="text" default="modules/mod_oziogallery/photo/file/lustmosaico.xml" label="xml URL" description="" size="60"></param>
+<param name="phpURLl" type="text" default="modules/mod_oziogallery/photo/gallery.php" label="php URL" description="" size="60"></param>
+<param name="d" type="spacer" default="" label="" description="" />
+<param name="scrittaslideoo" type="spacer" default="======== SKIN FLICKR SLIDEOO SETTINGS ========" label="" description="" />
+<param name="ozio_widthslideoo" type="text" default="100%" label="FLASH WIDTH" description="FLASH WIDTH IN PIXEL"></param>
+<param name="dimensionislideoo" type="list" default="medium" label="LOAD IMAGE SIZE" description="LOAD IMAGE SIZE DESCRIPTION">
+			<option value="thumbnail">Thumbnail</option>
+			<option value="medium">Medium</option>
+			<option value="big">Big</option>
+</param>
+<param name="slideoonum" type="text" default="25" label="NUMERO MASSIMO IMMAGINI" description="IL NUMERO MASSIMO DI IMMAGINI"></param>
+<param name="slideoorandom" type="radio" default="1" label="RANDOMIZE" description="RANDOMIZE DESCRIPTION">
+			<option value="0">yes</option>
+			<option value="1">no</option>
+</param>
+<param name="e" type="spacer" default="" label="" description="" />
+<param name="scrittaaccordion" type="spacer" default="======== SKIN ACCORDION SETTINGS ========" label="" description="" />
+<param name="accordion_width" type="text" default="590" label="FLASH WIDTH" description="FLASH WIDTH IN PIXEL"></param>
+<param name="accordion_height" type="text" default="300" label="FLASH HEIGHT" description="FLASH HEIGHT IN PIXEL"></param>
+<param name="accordion_widths" type="text" default="320" label="FLASH WIDTH SELECT" description="FLASH WIDTH IN PIXEL SELECT"></param>
+<param name="accordion_heights" type="text" default="300" label="FLASH HEIGHT SELECT" description="FLASH HEIGHT IN PIXEL SELECT"></param>
+<param name="accoalign" type="radio" default="2" label="ALIGN" description="">
+			<option value="0">left</option>
+			<option value="2">center</option>
+			<option value="1">right</option>
+</param>
+<param name="screencoloraccordion" type="text" default="ffffff" label="BACKGROUND GRADIENT EDGE" description="HEXADECIMAL COLOR VALUE OF THE STAGE BACKGROUND GRADIENT EDGE"></param>
+<param name="accordiontitle" type="radio" default="0" label="TITOLI FOTO" description="TITOLI FOTO DESCRIPTION">
+			<option value="0">yes</option>
+			<option value="1">no</option>
+</param>
+<param name="accordion_iniz" type="radio" default="1" label="TUTTO CHIUSO" description="TUTTO CHIUSO DESCRIPTION">
+			<option value="0">yes</option>
+			<option value="1">no</option>
+</param>
+<param name="accordion_num" type="text" default="0" label="FOTO INIZIALE" description="FOTO INIZIALE DESC"></param>
+<param name="xml_modelacco" type="radio" default="0" label="XML MODE">
+			<option value="0">Auto</option>
+			<option value="1">Manual</option>
+</param>
+<param name="xmlURLacco" type="text" default="modules/mod_oziogallery/photo/file/accordion.xml" label="xml URL" description="" size="60"></param>
+<param name="phpURLacco" type="text" default="modules/mod_oziogallery/photo/accordion.php" label="php URL" description="" size="60"></param>
+
+<param name="e" type="spacer" default="" label="" description="" />
+<param name="scrittaflashgallery" type="spacer" default="======== SKIN FLASHGALLERY SETTINGS ========" label="" description="" />
+<param name="widthgal" type="text" default="600" label="FLASH WIDTH" description="FLASH WIDTH IN PIXEL"></param>
+<param name="heightgal" type="text" default="400" label="FLASH HEIGHT" description="FLASH HEIGHT IN PIXEL"></param>
+<param name="galalign" type="radio" default="2" label="ALIGN" description="">
+			<option value="0">left</option>
+			<option value="2">center</option>
+			<option value="1">right</option>
+</param>
+<param name="flashtitle" type="radio" default="0" label="SHOW TITLE" description="">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+</param>
+<param name="xmlcolor" type="list" default="default" label="COLOR SET" description="COLOR SET DESCRIPTION">
+			<option value="default">Default</option>
+			<option value="blue">Blue</option>
+			<option value="black">Black</option>
+</param>
+<param name="pathgall" type="text" default="photo" label="PATH GALL" description="PATH GALL DESC"></param>
+<param name="f" type="spacer" default="" label="" description="" />
+<param name="scrittacarousel" type="spacer" default="======== SKIN CAROUSEL SETTINGS ========" label="" description="" />
+<param name="widthcaro" type="text" default="600" label="FLASH WIDTH" description="FLASH WIDTH IN PIXEL"></param>
+<param name="heightcaro" type="text" default="400" label="FLASH HEIGHT" description="FLASH HEIGHT IN PIXEL"></param>
+<param name="caroalign" type="radio" default="2" label="ALIGN" description="">
+			<option value="0">left</option>
+			<option value="2">center</option>
+			<option value="1">right</option>
+</param>
+<param name="colorcaro" type="text" default="9F9F9F" label="LOAD COLOR" description=""></param>
+<param name="carouseltitle" type="radio" default="0" label="XML MODE">
+			<option value="0">Auto</option>
+			<option value="1">Manual</option>
+</param>
+<param name="xmlURLcaro" type="text" default="modules/mod_oziogallery/photo/file/carousel.xml" label="xml URL" description="" size="60"></param>
+<param name="phpURLcaro" type="text" default="modules/mod_oziogallery/photo/carousel.php" label="php URL" description="" size="60"></param>
+<param name="g" type="spacer" default="" label="" description="" />
+<param name="scrittaimagin" type="spacer" default="======== SKIN IMAGIN SETTINGS ========" label="" description="" />
+<param name="widthimagin" type="text" default="600" label="FLASH WIDTH" description="FLASH WIDTH IN PIXEL"></param>
+<param name="heightimagin" type="text" default="400" label="FLASH HEIGHT" description="FLASH HEIGHT IN PIXEL"></param>
+<param name="colorimagin" type="text" default="232323" label="BACKGROUND RETRO" description=""></param>
+<param name="imaginURL" type="text" default="modules/mod_oziogallery/photo/imagin" label="PATH GALL" description="PATH GALL DESC" size="60"></param>
+
+</params>
+
+<files>
+<filename module="mod_oziogallery">mod_oziogallery.php</filename>
+<filename>flashgallery.php</filename>
+<filename>flashgallerytitle.php</filename>
+<filename>photo/gallery.php</filename>
+<filename>photo/accordion.php</filename>
+<filename>photo/carousel.php</filename>
+<filename>photo/file/gallery.xml</filename>
+<filename>photo/file/imagerotator.xml</filename>
+<filename>photo/file/lustmosaico.xml</filename>
+<filename>photo/file/accordion.xml</filename>
+<filename>photo/file/carousel.xml</filename>
+<filename>photo/imagin/_preferences.xml</filename>
+<filename>photo/imagin/info.png</filename>
+</files>
+<languages>
+     <language tag="en-GB">language/en-GB/en-GB.mod_oziogallery.ini</language>
+     <language tag="it-IT">language/it-IT/it-IT.mod_oziogallery.ini</language>
+</languages>
+
+</install>
