@@ -39,3 +39,16 @@ The "History of the School" describes the entire 70-year history since the found
 
 ![image](https://github.com/user-attachments/assets/b88da71b-87bb-4559-bcaa-d5fef102c932)
 
+"Notable Alumni of the School" is a list of famous people who graduated from the school:
+
+![image](https://github.com/user-attachments/assets/45881c2a-1048-4584-92b3-6cb03f74bc3e)
+
+The site contains a 3D photo gallery created using the Joomla Ozio Gallery component for Joomla 1.5. The photo gallery consists of 9 items:
+
+![image](https://github.com/user-attachments/assets/1419f1a0-358a-4b60-bed3-5074faef81d9)
+
+
+![image](https://github.com/user-attachments/assets/d5ecbce8-3fbf-4a82-9fd9-2c585d428cb7)
+![image](https://github.com/user-attachments/assets/1eaf14f5-b6aa-4ebf-93eb-e8ad86b9b415)
+![image](https://github.com/user-attachments/assets/cb67afd6-edf8-41d9-9669-02857e4f36c2)
+![image](https://github.com/user-attachments/assets/32e0aef3-e84e-464e-854b-5c20ec0396c1)
